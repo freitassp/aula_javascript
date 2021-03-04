@@ -1,2 +1,4 @@
-var nome = "Samuel Freitas"
-alert("Bem vindo " + nome);
+var lista = ["maçã", "pera"];
+lista.push("uva");
+lista.pop();
+console.log(lista);
