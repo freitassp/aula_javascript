@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <title>Minha página</title>
 </head>
-<body>
+<body onload="load()">
   <button type="button" onclick="clicou()" class="botao"><strong>Clique aqui</strong> </button>
 
   <p id="agradecimento" onclick="redirecionar()"></p>
-  <p id="agradecimento" onclick="redirecionar()"></p>
+  <p  onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+  <p  onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
     
-   
+  <select onchange="funcaoChange(this)">
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3">Valor 3</option>
+    
+
+
+ </select>
     
 <script src="js/main.js"></script>
 </body>
